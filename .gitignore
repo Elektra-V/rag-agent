@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.log
+*.env
+*.venv
+venv/
+.env/
+.env.local
+.DS_Store
+
+# Byte-compiled / optimized files
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# FastAPI / Uvicorn cache
+*.db
+*.sqlite3
+
+# Reports / temp data
+/tmp/
+*.out
+*.log
+*.csv
+*.jsonl
+
+# Ollama / model cache
+/models/
+*.bin
+*.gguf
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+**/.docker/
+
+# Test cache
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.cache/
+tests/__pycache__/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# PDFs and data (optional, comment out if you track mock data)
+pdfs/
+mfa_data/
+data/
+uploads/
+
+# LangGraph / LangChain cache
+.langchain/
+.langgraph/
+.openai/
+
+# VS Code local history
+.history/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Secrets / keys
+*.pem
+*.key
+*.crt
