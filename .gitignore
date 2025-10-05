@@ -74,7 +74,6 @@ dist/
 *.spec
 
 # PDFs and data (optional, comment out if you track mock data)
-pdfs/
 mfa_data/
 data/
 uploads/
